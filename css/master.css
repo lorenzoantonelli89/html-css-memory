@@ -21,19 +21,10 @@ header>h1{
 
 /* parte centrale */
 .container{
-  width: 793px;
+  width: 794px;
   height: 697px;
   margin: 0 auto;
-  margin-top: 4%;
-  margin-bottom: 2%;
-}
-
-.row{
-  position: relative;
-}
-
-.second, .third{
-  margin-top: 30px;
+  margin-bottom: 3%;
 }
 
 .card{
@@ -42,14 +33,22 @@ header>h1{
   display: inline-block;
   border-radius: 13px;
   box-shadow: 2px 2px 1px lightgrey;
+  margin-top: 3%;
   position: relative;
+  background-size: contain;
   background-color: #fff;
+}
+
+.hidden{
   background-image: url("../img/pattern.png");
   background-size: contain;
 }
 
+.left{
+  margin-left: 15px;
+}
 
-.imgcard{
+.imgcard,.foto.visible{
   width: 140px;
   height: 160px;
   position: absolute;
@@ -58,39 +57,26 @@ header>h1{
   left: 0;
   right: 0;
   bottom: 25px;
-  display: none;
 }
 
-.textimg{
+.textimg,.testo.visible{
   font-size: 30px;
   text-align: center;
   line-height: 365px;
   color: #e61986;
   text-shadow: 2px 0 2px #add8e6, 0 2px 2px #000;
-  display: none;
 }
 
-/* .card:hover{
-  display: none;
-} */
-
-
-.two{
-  position: absolute;
-  top: 0;
-  left: 204px;
+.stillimage{
+  opacity: 0;
 }
 
-.three{
-  position: absolute;
-  top: 0;
-  right: 204px;
+.stillimage:hover{
+  opacity: inherit;
 }
 
-.four{
-  position: absolute;
-  top: 0;
-  right: 0;
+.hidden:hover{
+  background-image: none;
 }
 
 /* parte footer */
