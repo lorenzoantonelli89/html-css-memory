@@ -25,6 +25,7 @@ header>h1{
   height: 697px;
   margin: 0 auto;
   margin-top: 4%;
+  margin-bottom: 2%;
 }
 
 .row{
@@ -43,7 +44,7 @@ header>h1{
   box-shadow: 2px 2px 1px lightgrey;
   position: relative;
   background-color: #fff;
-  /* background-image: url("../img/pattern.png"); */
+  background-image: url("../img/pattern.png");
   background-size: contain;
 }
 
@@ -57,7 +58,7 @@ header>h1{
   left: 0;
   right: 0;
   bottom: 25px;
-  /* display: none; */
+  display: none;
 }
 
 .textimg{
@@ -66,12 +67,12 @@ header>h1{
   line-height: 365px;
   color: #e61986;
   text-shadow: 2px 0 2px #add8e6, 0 2px 2px #000;
-  /* display: none; */
-}
-
-.card:hover{
   display: none;
 }
+
+/* .card:hover{
+  display: none;
+} */
 
 
 .two{
@@ -90,4 +91,12 @@ header>h1{
   position: absolute;
   top: 0;
   right: 0;
+}
+
+/* parte footer */
+footer>span{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 2%;
+  text-align: center;
 }
