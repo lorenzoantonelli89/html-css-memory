@@ -43,7 +43,10 @@ header>h1{
   box-shadow: 2px 2px 1px lightgrey;
   position: relative;
   background-color: #fff;
+  /* background-image: url("../img/pattern.png"); */
+  background-size: contain;
 }
+
 
 .imgcard{
   width: 140px;
@@ -54,6 +57,7 @@ header>h1{
   left: 0;
   right: 0;
   bottom: 25px;
+  /* display: none; */
 }
 
 .textimg{
@@ -62,7 +66,13 @@ header>h1{
   line-height: 365px;
   color: #e61986;
   text-shadow: 2px 0 2px #add8e6, 0 2px 2px #000;
+  /* display: none; */
 }
+
+.card:hover{
+  display: none;
+}
+
 
 .two{
   position: absolute;
