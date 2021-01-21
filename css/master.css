@@ -20,3 +20,58 @@ header>h1{
 }
 
 /* parte centrale */
+.container{
+  width: 793px;
+  height: 697px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 4%;
+}
+
+.row{
+  position: relative;
+}
+
+.second, .third{
+  margin-top: 30px;
+}
+
+.card{
+  width: 180px;
+  height: 208px;
+  background-color: yellow;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 13px;
+  box-shadow: 1px 1px 1px lightgrey;
+  position: relative;
+}
+
+.imgcard{
+  width: 140px;
+  height: 160px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.two{
+  position: absolute;
+  top: 0;
+  left: 204px;
+}
+
+.three{
+  position: absolute;
+  top: 0;
+  right: 204px;
+}
+
+.four{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
