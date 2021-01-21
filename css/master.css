@@ -13,7 +13,7 @@ body{
 /* parte di header */
 header>h1{
   color: #fff;
-  font-size: 70px;
+  font-size: 80px;
   text-shadow: 2px 0 2px #add8e6, 0 2px 2px #000;
   margin-top: 2%;
   text-align: center;
@@ -23,7 +23,6 @@ header>h1{
 .container{
   width: 793px;
   height: 697px;
-  background-color: red;
   margin: 0 auto;
   margin-top: 4%;
 }
@@ -39,12 +38,11 @@ header>h1{
 .card{
   width: 180px;
   height: 208px;
-  background-color: yellow;
   display: inline-block;
-  border: 1px solid black;
   border-radius: 13px;
-  box-shadow: 1px 1px 1px lightgrey;
+  box-shadow: 2px 2px 1px lightgrey;
   position: relative;
+  background-color: #fff;
 }
 
 .imgcard{
@@ -55,7 +53,15 @@ header>h1{
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 25px;
+}
+
+.textimg{
+  font-size: 30px;
+  text-align: center;
+  line-height: 365px;
+  color: #e61986;
+  text-shadow: 2px 0 2px #add8e6, 0 2px 2px #000;
 }
 
 .two{
