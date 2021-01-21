@@ -7,4 +7,16 @@
 
 body{
   background-color: #add8e6;
+  font-family: 'Nerko One', cursive;
 }
+
+/* parte di header */
+header>h1{
+  color: #fff;
+  font-size: 70px;
+  text-shadow: 2px 0 2px #add8e6, 0 2px 2px #000;
+  margin-top: 2%;
+  text-align: center;
+}
+
+/* parte centrale */
